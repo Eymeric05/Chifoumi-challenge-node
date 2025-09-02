@@ -156,10 +156,4 @@ Possibilités d'extension :
 - **Base de données** pour les statistiques
 - **Mode tournoi** avec plusieurs joueurs
 
-## Licence
 
-MIT License - Libre d'utilisation et de modification
-
----
-
-**Amusez-vous bien avec le jeu Chifoumi !**
