@@ -59,21 +59,36 @@ npm run dev    # Lancer en mode développement avec auto-reload
 npm run demo   # Voir une démonstration automatique
 ```
 
+### Commandes du Jeu
+```bash
+jouer auto     # Lancer une partie automatique (2 IA)
+jouer          # Jouer contre l'IA
+stats          # Voir les statistiques
+historique     # Voir l'historique des parties
+reset          # Réinitialiser le jeu
+quitter        # Quitter le jeu
+menu           # Revenir au menu (pendant une partie)
+```
+
 ## Comment Jouer
 
 1. **Lancez le jeu** avec `npm start`
-2. **Choisissez une option** dans le menu principal :
+2. **Tapez une commande** dans le menu principal :
 
-   - `1` : Jouer une partie (5 rounds automatiques)
-   - `2` : Jouer contre l'IA - Mode Interactif
-   - `3` : Voir les statistiques complètes
-   - `4` : Voir l'historique des parties
-   - `5` : Réinitialiser le jeu
-   - `6` : Quitter
+   - `jouer auto` : Lancer une partie automatique (2 IA qui s'affrontent)
+   - `jouer` : **Jouer contre l'IA** - Mode Interactif
+   - `stats` : Voir les statistiques complètes
+   - `historique` : Voir l'historique des parties
+   - `reset` : Réinitialiser le jeu
+   - `quitter` : Quitter le jeu
 
-3. **Suivez les rounds** qui se jouent automatiquement ou jouez contre l'IA
-4. **Consultez les statistiques** pour voir les performances
-5. **Relancez le jeu** autant de fois que vous voulez !
+3. **Pendant le jeu contre l'IA** :
+   - Choisissez `1`, `2` ou `3` pour Pierre, Papier, Ciseaux
+   - Tapez `menu` à tout moment pour revenir au menu principal
+   - Suivez votre score en temps réel
+
+4. **Consultez les statistiques** pour voir vos performances
+5. **Rejouez** autant de fois que vous voulez !
 
 ## Architecture du Code
 
